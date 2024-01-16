@@ -2,6 +2,8 @@ import 'package:berl1n_gemini/chat_and_image.dart';
 import 'package:berl1n_gemini/main.dart';
 import 'package:flutter/material.dart';
 import 'package:google_gemini/google_gemini.dart';
+import 'package:google_fonts/google_fonts.dart';
+import 'package:loading_animation_widget/loading_animation_widget.dart';
 
 class ChatRoom extends StatefulWidget {
   const ChatRoom({
@@ -115,8 +117,14 @@ class _TextOnlyState extends State<TextOnly> {
                       AssetImage(textChat[index]["photo"].toString()),
                   // child: Text(textChat[index]["role"].substring(0, 1)),
                 ),
-                title: Text(textChat[index]["role"]),
-                subtitle: Text(textChat[index]["text"]),
+                title: Text(
+                  textChat[index]["role"],
+                  style: GoogleFonts.poppins(fontWeight: FontWeight.w500),
+                ),
+                subtitle: Text(
+                  textChat[index]["text"],
+                  style: GoogleFonts.poppins(),
+                ),
               );
             },
           ),
@@ -135,6 +143,10 @@ class _TextOnlyState extends State<TextOnly> {
                 child: TextField(
                   controller: _textController,
                   decoration: InputDecoration(
+                    hintStyle: GoogleFonts.poppins(
+                        color: Colors.grey,
+                        fontWeight: FontWeight.w300,
+                        fontSize: 16),
                     hintText: "Tanya apa saja",
                     border: OutlineInputBorder(
                         borderRadius: BorderRadius.circular(10.0),
@@ -147,7 +159,8 @@ class _TextOnlyState extends State<TextOnly> {
               ),
               IconButton(
                 icon: loading
-                    ? const CircularProgressIndicator()
+                    ? LoadingAnimationWidget.inkDrop(
+                        color: Colors.lightBlue, size: 30)
                     : const Icon(Icons.send),
                 onPressed: () {
                   fromText(query: _textController.text);
