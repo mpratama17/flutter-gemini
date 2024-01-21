@@ -5,7 +5,7 @@ import 'package:berl1n_gemini/pages/home.dart';
 // import 'package:berl1n_gemini/pages/home.dart';
 import 'package:flutter/material.dart';
 
-const apiKey = "AIzaSyAjurCZ9_suX9XLMriM_XlZmI_ZuyJGtwk";
+const apiKey = "------API KEY------";
 
 void main() {
   runApp(const MyApp());
