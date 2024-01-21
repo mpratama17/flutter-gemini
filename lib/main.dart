@@ -1,4 +1,8 @@
-import 'package:berl1n_gemini/chat.dart';
+// import 'package:berl1n_gemini/home.dart';
+// import 'package:berl1n_gemini/pages/chat.dart';
+// import 'package:berl1n_gemini/pages/chat.dart';
+import 'package:berl1n_gemini/pages/home.dart';
+// import 'package:berl1n_gemini/pages/home.dart';
 import 'package:flutter/material.dart';
 
 const apiKey = "AIzaSyAjurCZ9_suX9XLMriM_XlZmI_ZuyJGtwk";
@@ -18,7 +22,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.indigo),
         useMaterial3: true,
       ),
-      home: const ChatRoom(),
+      home: Home(),
     );
   }
 }
