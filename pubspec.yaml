@@ -40,6 +40,7 @@ dependencies:
   google_gemini: ^0.1.2
   google_fonts: ^6.1.0
   loading_animation_widget: ^1.2.0+4
+  flutter_markdown: ^0.6.18+3
 
 dev_dependencies:
   flutter_test:
@@ -67,6 +68,14 @@ flutter:
   assets:
     - assets/images/6.jpg
     - assets/images/gemini.jpg
+    - assets/icons/text.png
+    - assets/icons/text2.png
+    - assets/icons/image.png
+    - assets/icons/add_image.png
+    - assets/icons/right-arrow.png
+    - assets/icons/chevron.png
+
+
 
     # - images/a_dot_ham.jpeg
 
