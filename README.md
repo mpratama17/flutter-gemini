@@ -1,16 +1,21 @@
-# berl1n_gemini
+https://github.com/mpratama17/flutter-gemini/blob/main/assets/images/ss.png
 
-A new Flutter project.
+# Flutter Gemini Chatbot
 
-## Getting Started
+Proyek ini adalah aplikasi chatbot yang dibangun menggunakan framework Flutter dan didukung oleh model Gemini AI. Aplikasi ini dikembangkan sebagai bagian dari portofolio untuk menunjukkan kemampuan pengembangan Flutter dan integrasi dengan teknologi kecerdasan buatan.
 
-This project is a starting point for a Flutter application.
+## Tangkapan Layar
 
-A few resources to get you started if this is your first Flutter project:
+![Tangkapan Layar Aplikasi](https://github.com/mpratama17/flutter-gemini/blob/main/assets/images/ss.png)
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Cara Menggunakan
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+1. Clone repositori ini:
+
+   ```bash
+   git clone https://github.com/mpratama17/flutter-gemini.git
+2. Buka proyek menggunakan editor Flutter favorit Anda.
+
+3. Jalankan aplikasi menggunakan perintah:
+   ```flutter run
+
