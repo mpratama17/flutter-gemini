@@ -6,7 +6,7 @@ Proyek ini adalah aplikasi chatbot yang dibangun menggunakan framework Flutter d
 
 ## Tangkapan Layar
 
-![Tangkapan Layar Aplikasi](https://github.com/mpratama17/flutter-gemini/blob/main/assets/images/ss.png)
+![Tangkapan Layar Aplikasi](https://github.com/mpratama17/flutter-gemini/blob/main/assets/images/ss.png?raw=true&width=200)
 
 ## Cara Menggunakan
 
