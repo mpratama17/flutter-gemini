@@ -17,5 +17,6 @@ Proyek ini adalah aplikasi chatbot yang dibangun menggunakan framework Flutter d
 2. Buka proyek menggunakan editor Flutter favorit Anda.
 
 3. Jalankan aplikasi menggunakan perintah:
-   ```flutter run
+   ```bash
+   flutter run
 
