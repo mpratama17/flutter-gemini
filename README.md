@@ -1,5 +1,3 @@
-https://github.com/mpratama17/flutter-gemini/blob/main/assets/images/ss.png
-
 # Flutter Gemini Chatbot
 
 Proyek ini adalah aplikasi chatbot yang dibangun menggunakan framework Flutter dan didukung oleh model Gemini AI. Aplikasi ini dikembangkan sebagai bagian dari portofolio untuk menunjukkan kemampuan pengembangan Flutter dan integrasi dengan teknologi kecerdasan buatan.
